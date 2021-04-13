@@ -1,5 +1,5 @@
 # slp
-《自然语言处理综论(Speech and Language Processing)》第三版草稿版中文翻译
+📖 [译] 《自然语言处理综论(Speech and Language Processing)》第三版
 
 |书名|Speech and Language Processing|
 |---|:---|
