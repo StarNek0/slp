@@ -2,7 +2,7 @@
 自然语言处理综述第3版草稿 (Speech and Language Processing 3rd ed. draft) 中文翻译
 
 |书名|Speech and Language Processing|
-|-|:-|
+|---|:---|
 |作者|Dan Jurafsky and James H. Martin|
 |版本|3rd ed. draft|
 |日期|2020-12-30|
@@ -30,7 +30,7 @@
 
 ## 摘要
 |章|节|译者|进度|
-|-|-|-|-|
+|---|---|---|---|
 |1 Introduction||||
 |2 Regular Expressions, Text Normalization, Edit Distance||||
 ||2.1 Regular Expressions|||
