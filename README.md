@@ -10,10 +10,12 @@
 |PDF|https://web.stanford.edu/~jurafsky/slp3/ed3book_dec302020.pdf|
 
 ## 协议
-[MIT License](https://github.com/StarDrewer/slp/blob/main/LICENSE)
+[CC BY-NC-SA 4.0](https://github.com/StarDrewer/slp/blob/main/LICENSE)
 
-- 可以免费对本译文进行自由的使用、复制、修改、合并、出版发行、散布、再授权及盈利，但必须满足以下条件：
+- 可以复制、发行、展览、表演、放映、广播或通过信息网络传播本译文，但必须满足以下条件：
   - 在其中包含原协议并注明原著及译文出处
+  - 不可为商业目的而使用本译文
+  - 若改变、转变或更改本译文，需要使用相同的协议
   - 本译文不对内容做任何担保，也不为其承担任何责任及赔偿
 - 本项目的代码、GitHub Actions 配置等也适用于该协议
 
