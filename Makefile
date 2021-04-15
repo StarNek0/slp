@@ -6,14 +6,15 @@ install-node-linux:
 install-node-darwin:
 	brew install node
 
-install-depends:
+dev-depends:
 	npm i docsify-cli -g
+
+dev:
+	docsify serve docs
 
 build:
 	docker build -f Dockerfile -t stardrewer/slp .
 
 deploy:
-	docker run -itp 3000:3000 --name=slp stardrewer/slp 
-
-dev:
-	docsify serve docs
+	docker-compose up -d
+	# docker run -itp 3000:3000 --name=slp stardrewer/slp 
