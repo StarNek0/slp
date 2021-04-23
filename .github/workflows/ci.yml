@@ -1,0 +1,13 @@
+name: CI
+on:
+  push:
+    branches:
+      - master
+jobs:
+  build-docker:
+    steps:
+      - name: build
+        run: make build
+      - name: push
+        run: make push
+      
