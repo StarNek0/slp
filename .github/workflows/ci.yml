@@ -21,4 +21,7 @@ jobs:
       - name: Build latest docker image
         run: make build
       - name: Push to DockerHub
+        env:
+          DOCKER_USERNAME: ${{ secrets.DOCKER_USERNAME }}
+          DOCKER_PASSWORD: ${{ secrets.DOCKER_PASSWORD }}
         run: make push
