@@ -2,7 +2,7 @@ FROM node:latest
 
 WORKDIR /slp
 
-RUN npm --registry https://registry.npm.taobao.org i docsify-cli -g
+RUN npm i docsify-cli -g
 
 EXPOSE 3000/tcp
 
