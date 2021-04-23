@@ -22,4 +22,4 @@ deploy:
 	# docker run -itp 3000:3000 --name=slp stardrewer/slp 
 
 deploy-nohup:
-	nohup docsify serve docs -p 80 > slp.log 2&>1 &
+	nohup docsify serve docs -p 80 >> slp.log 2>&1 &
