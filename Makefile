@@ -18,7 +18,7 @@ build:
 	docker build -f Dockerfile -t stardrewer/slp .
 
 push:
-	docker login -u ${DOCKER_USERNAME} -p ${DOCKER_PASSWORD}
+	echo ${DOCKER_PASSWORD} | docker login -u ${DOCKER_USERNAME} --password-stdin
 	docker push stardrewer/slp
 
 deploy:
