@@ -2,6 +2,8 @@ install-node-linux:
 	wget https://nodejs.org/dist/v14.16.1/node-v14.16.1-linux-x64.tar.xz
 	mkdir -p /usr/local/lib/nodejs
 	tar -xJvf node-v14.16.1-linux-x64.tar.xz -C /usr/local/lib/nodejs
+	echo 'export PATH=/usr/local/lib/nodejs/node-v14.16.1-linux-x64/bin:$PATH' > ~/.bash_profile
+	source ~/.bash_profile
 
 install-node-darwin:
 	brew install node
