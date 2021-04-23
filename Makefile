@@ -12,7 +12,7 @@ dev-depends:
 	npm i docsify-cli -g
 
 dev:
-	docsify serve docs
+	docsify serve docs -p 3000
 
 build:
 	docker build -f Dockerfile -t stardrewer/slp .
