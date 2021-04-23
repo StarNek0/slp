@@ -17,6 +17,10 @@ dev:
 build:
 	docker build -f Dockerfile -t stardrewer/slp .
 
+push:
+	docker login -u ${DOCKER_USERNAME} -p ${DOCKER_PASSWORD}
+	docker push stardrewer/slp
+
 deploy:
 	docker-compose up -d
 	# docker run -itp 3000:3000 --name=slp stardrewer/slp 
